@@ -2,7 +2,35 @@
 
 * {
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
-h1 {
-    color: red;
+
+html, body {
+    background-color: #E8E8E8;
+}
+
+header {
+    background-color: #4D41C0;
+    color: #fff;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+header a {
+    align-items: center;
+}
+
+header a img {
+    width: 2rem;
+    margin-right: auto;
 }
